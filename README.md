@@ -1,5 +1,7 @@
 # DenyTravel
 ![logo](https://i.imgur.com/anoI2zX.png)
+
+
 What is DenyTravel?
 DenyTravel is a plugin that stops mobs(Animals, Monsters, & Entities) from traveling through portals! This could be very helpful for your server in many ways. Especially for stopping dupe glitches!
 
