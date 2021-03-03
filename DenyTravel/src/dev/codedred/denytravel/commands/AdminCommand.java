@@ -26,7 +26,7 @@ public class AdminCommand implements CommandExecutor {
 			if (args[0].equalsIgnoreCase("reload")) {
 				data.reload();
 				data.registerEntities();
-				sender.sendMessage(format("&3&lDenyTravel Successfully reloaded and registered config file!"));
+				sender.sendMessage(format("&3&lDenyTravel successfully reloaded and registered the config file!"));
 				return true;
 			}
 			if (args[0].equalsIgnoreCase("list")) {
@@ -34,7 +34,7 @@ public class AdminCommand implements CommandExecutor {
 				List<String> entities = new ArrayList<>();
 				for (Travelers e : Travelers.values())
 					if (e.isDenied()) entities.add(e.toString());
-				sender.sendMessage(ChatColor.GRAY + entities.toString());
+				sender.sendMessage(format("&7" + entities.toString()));
 				return true;
 			}
 		case 3:
@@ -67,7 +67,7 @@ public class AdminCommand implements CommandExecutor {
 			sender.sendMessage(format("&3&lDenyTravel Usage:"));
 			sender.sendMessage(format("&3/&7denytravel list"));
 			sender.sendMessage(format("&3/&7denytravel reload"));
-			sender.sendMessage(format("&3/&7denytravel set <entity> <deny/allow>"));
+			sender.sendMessage(format("&3/&7denytravel set &8<&7entity&8> <&7deny&8/&7allow&8>"));
 		}	
 		return true;
 	}
