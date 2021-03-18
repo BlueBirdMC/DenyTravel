@@ -75,7 +75,7 @@ In DenyTravel you are able to deny all entities or just certain entities from tr
 ## Usage
 
 More info coming soon!
-_For more examples, please refer to the [Documentation](https://www.spigotmc.org/resources/DenyTravel-custom-help-pages-with-gui.44478/)_
+_Please refer to the [Documentation](https://www.spigotmc.org/resources/denytravel-stop-entities-from-using-portals.68870/)_
 
 
 
